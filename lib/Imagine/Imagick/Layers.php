@@ -41,7 +41,7 @@ class Layers extends AbstractLayers
 
     public function __construct(Image $image, PaletteInterface $palette, \Imagick $resource)
     {
-        $this->image = $image;
+//        $this->image = $image;
         $this->resource = $resource;
         $this->palette = $palette;
     }
